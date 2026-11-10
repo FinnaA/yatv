@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="incidents">
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `FrameLayout` parent is unnecessary; transfer the `background` attribute to the other view">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="7"
+            column="6"
+            startOffset="232"
+            endLine="7"
+            endColumn="18"
+            endOffset="244"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Продолжить игру с последней главы&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="32"
+            column="13"
+            startOffset="1182"
+            endLine="32"
+            endColumn="75"
+            endOffset="1244"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Начать игру с начала, с первой главы&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="43"
+            column="13"
+            startOffset="1660"
+            endLine="43"
+            endColumn="78"
+            endOffset="1725"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Видеоплеер&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_video_player.xml"
+            line="11"
+            column="9"
+            startOffset="378"
+            endLine="11"
+            endColumn="34"
+            endOffset="403"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/ru/digitalavatar/secondlife/MainActivity.kt"
+            line="27"
+            column="32"
+            startOffset="961"
+            endLine="27"
+            endColumn="65"
+            endOffset="994"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for junit-junit"
+            robot="true">
+            <fix-replace
+                description="Replace with junitVersion = &quot;4.13.2&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="junitVersion = &quot;4.13.2&quot;&#xA;">
+                <range
+                    file="$HOME/workspace/gradle/libs.versions.toml"
+                    startOffset="11"
+                    endOffset="11"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with junit-junit = { module = &quot;junit:junit&quot;, version.ref = &quot;junitVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="junit-junit = { module = &quot;junit:junit&quot;, version.ref = &quot;junitVersion&quot; }&#xA;">
+                <range
+                    file="$HOME/workspace/gradle/libs.versions.toml"
+                    startOffset="370"
+                    endOffset="370"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.junit.junit"
+                robot="true"
+                replacement="libs.junit.junit">
+                <range
+                    file="${:app*projectDir}/build.gradle.kts"
+                    startOffset="1191"
+                    endOffset="1211"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="52"
+            column="25"
+            startOffset="1192"
+            endLine="52"
+            endColumn="43"
+            endOffset="1210"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.8.0">
+        <fix-replace
+            description="Change to 1.8.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.8.0"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="4"
+            column="13"
+            startOffset="54"
+            endLine="4"
+            endColumn="20"
+            endOffset="61"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.2">
+        <fix-replace
+            description="Change to 2.2.2"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.2"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="5"
+            column="20"
+            startOffset="81"
+            endLine="5"
+            endColumn="27"
+            endOffset="88"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.14.0">
+        <fix-replace
+            description="Change to 1.14.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.14.0"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="6"
+            column="12"
+            startOffset="100"
+            endLine="6"
+            endColumn="20"
+            endOffset="108"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.1">
+        <fix-replace
+            description="Change to 1.19.1"
+            family="Update versions"
+            oldString="1.13.1"
+            replacement="1.19.1"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="9"
+            column="11"
+            startOffset="154"
+            endLine="9"
+            endColumn="19"
+            endOffset="162"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.media3:media3-exoplayer than 1.3.1 is available: 1.11.1">
+        <fix-replace
+            description="Change to 1.11.1"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.11.1"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="7"
+            column="10"
+            startOffset="118"
+            endLine="7"
+            endColumn="17"
+            endOffset="125"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.media3:media3-ui than 1.3.1 is available: 1.11.1">
+        <fix-replace
+            description="Change to 1.11.1"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.11.1"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="7"
+            column="10"
+            startOffset="118"
+            endLine="7"
+            endColumn="17"
+            endOffset="125"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.media3:media3-session than 1.3.1 is available: 1.11.1">
+        <fix-replace
+            description="Change to 1.11.1"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.11.1"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="7"
+            column="10"
+            startOffset="118"
+            endLine="7"
+            endColumn="17"
+            endOffset="125"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.android.application than 8.2.2 is available: 9.5.1">
+        <fix-replace
+            description="Change to 9.5.1"
+            family="Update versions"
+            oldString="8.2.2"
+            replacement="9.5.1"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="3"
+            column="7"
+            startOffset="34"
+            endLine="3"
+            endColumn="14"
+            endOffset="41"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/tv_banner.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_banner.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xhdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxhdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconDuplicatesConfig"
+        severity="warning"
+        message="The `tv_banner.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, mipmap-mdpi">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/tv_banner.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-television-xhdpi/tv_banner.png"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#101418` with a theme that also paints a background (inferred theme is `@android:style/Theme.Material.Light.NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="5"
+            column="5"
+            startOffset="196"
+            endLine="5"
+            endColumn="33"
+            endOffset="224"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#000000` with a theme that also paints a background (inferred theme is `@android:style/Theme.Material.Light.NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_video_player.xml"
+            line="5"
+            column="5"
+            startOffset="196"
+            endLine="5"
+            endColumn="33"
+            endOffset="224"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="ru.digitalavatar.secondlife.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="drawable[tv_banner(D),button_focus_selector(U)],id[title(D),btn_continue(U),btn_start(U)],layout[activity_video_player(U),activity_main(U)],mipmap[tv_banner(U),ic_launcher(U)],string[app_title(U),app_name(U)];6^9^1;;;"/>
+        <location id="R.drawable.tv_banner"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_banner.png"/>
+    </map>
+
+</incidents>

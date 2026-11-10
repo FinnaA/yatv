@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+drawable button_focus_selector
+drawable tv_banner
+id btn_continue
+id btn_start
+id title
+layout activity_main
+layout activity_video_player
+mipmap ic_launcher
+mipmap tv_banner
+string app_name
+string app_title

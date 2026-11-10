@@ -48,4 +48,6 @@ dependencies {
     implementation(libs.media3Ui)
     implementation(libs.media3Session)
     implementation(libs.okhttp)
+
+    testImplementation("junit:junit:4.13.2")
 }

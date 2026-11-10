@@ -4,7 +4,7 @@
             "outputFile": "ru.digitalavatar.secondlife.app-mergeDebugResources-34:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/home/coder/.gradle/caches/transforms-4/e602fbc944969d8edd0e46cf919c5bb3/transformed/material-1.11.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/abcebf39ea7934a3a9ac0b0d4d155a01/transformed/material-1.11.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
