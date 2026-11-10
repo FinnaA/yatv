@@ -47,7 +47,9 @@ dependencies {
     implementation(libs.media3Exoplayer)
     implementation(libs.media3Ui)
     implementation(libs.media3Session)
+    implementation(libs.media3Database)
     implementation(libs.okhttp)
+    implementation(libs.coroutinesAndroid)
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

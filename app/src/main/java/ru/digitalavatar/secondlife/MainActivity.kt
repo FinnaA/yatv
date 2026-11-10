@@ -4,6 +4,10 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import ru.digitalavatar.secondlife.data.StatsApi
 import ru.digitalavatar.secondlife.data.VideoCatalog
 
 class MainActivity : Activity() {
@@ -16,9 +20,15 @@ class MainActivity : Activity() {
         val btnCall = findViewById<Button>(R.id.btn_call)
 
         btnFeed.setOnClickListener {
+            CoroutineScope(Dispatchers.IO).launch {
+                StatsApi.send(this@MainActivity, "click_feed", VideoCatalog.feed)
+            }
             openVideo(VideoCatalog.feed)
         }
         btnCall.setOnClickListener {
+            CoroutineScope(Dispatchers.IO).launch {
+                StatsApi.send(this@MainActivity, "click_call", VideoCatalog.call)
+            }
             openVideo(VideoCatalog.call)
         }
 
