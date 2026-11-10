@@ -10,8 +10,7 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import java.util.UUID
 
 object StatsApi {
-    // TODO: заменить после деплоя функции
-    private const val ENDPOINT = "https://functions.yandexcloud.net/PUT_FUNCTION_URL_HERE"
+    private const val ENDPOINT = "https://functions.yandexcloud.net/d4eh48825hlu66j59ijj"
 
     private val client = OkHttpClient()
     private val json = "application/json; charset=utf-8".toMediaType()
