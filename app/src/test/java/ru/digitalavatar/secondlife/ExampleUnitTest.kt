@@ -1,11 +1,11 @@
 package ru.digitalavatar.secondlife
 
-import org.junit.Assert.*
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Test
 
 class ExampleUnitTest {
     @Test
     fun testBasic() {
-        Assert.assertTrue(true)
+        assertTrue(true)
     }
 }

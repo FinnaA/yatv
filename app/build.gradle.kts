@@ -49,6 +49,10 @@ dependencies {
     implementation(libs.media3Session)
     implementation(libs.okhttp)
 
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("junit:junit:4.13.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
