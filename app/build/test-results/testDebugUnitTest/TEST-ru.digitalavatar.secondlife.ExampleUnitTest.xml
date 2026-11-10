@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.digitalavatar.secondlife.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-10T10:58:05" hostname="gigaide-e872dd4f-5504-4f54-90b6-12980f10f048-00002-deploym458kf" time="0.019">
+  <properties/>
+  <testcase name="testBasic()" classname="ru.digitalavatar.secondlife.ExampleUnitTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -606,22 +606,96 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.tracing:tracing:1.0.0@aar"
+      jars="/home/coder/.gradle/caches/8.10.1/transforms/a9e4d0ee5af5f0aa0c33c96afbeabe30/transformed/tracing-1.0.0/jars/classes.jar"
+      resolved="androidx.tracing:tracing:1.0.0"
+      folder="/home/coder/.gradle/caches/8.10.1/transforms/a9e4d0ee5af5f0aa0c33c96afbeabe30/transformed/tracing-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.concurrent:concurrent-futures:1.1.0@jar"
+      jars="/home/coder/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar"
+      resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
+  <library
       name=":@@:app::debug"
       project=":app"/>
   <library
-      name="junit:junit:4.13.2@jar"
-      jars="/home/coder/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar"
-      resolved="junit:junit:4.13.2"/>
+      name="androidx.test.ext:junit:1.1.5@aar"
+      jars="/home/coder/.gradle/caches/8.10.1/transforms/39579e2b8c30b7f76e8de048b10043d3/transformed/junit-1.1.5/jars/classes.jar"
+      resolved="androidx.test.ext:junit:1.1.5"
+      folder="/home/coder/.gradle/caches/8.10.1/transforms/39579e2b8c30b7f76e8de048b10043d3/transformed/junit-1.1.5"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
-      name="org.hamcrest:hamcrest-core:1.3@jar"
-      jars="/home/coder/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
-      resolved="org.hamcrest:hamcrest-core:1.3"/>
+      name="androidx.test:core:1.5.0@aar"
+      jars="/home/coder/.gradle/caches/8.10.1/transforms/c5fc9df7acdcf10266434f4bec9f609b/transformed/core-1.5.0/jars/classes.jar"
+      resolved="androidx.test:core:1.5.0"
+      folder="/home/coder/.gradle/caches/8.10.1/transforms/c5fc9df7acdcf10266434f4bec9f609b/transformed/core-1.5.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
       name="androidx.recyclerview:recyclerview:1.1.0@aar"
       jars="/home/coder/.gradle/caches/8.10.1/transforms/57326785a240d9a1e5cad800087a2678/transformed/recyclerview-1.1.0/jars/classes.jar"
       resolved="androidx.recyclerview:recyclerview:1.1.0"
       provided="true"
       folder="/home/coder/.gradle/caches/8.10.1/transforms/57326785a240d9a1e5cad800087a2678/transformed/recyclerview-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test.services:storage:1.4.2@aar"
+      jars="/home/coder/.gradle/caches/8.10.1/transforms/23a07760defb4e61ab809973e33b296f/transformed/storage-1.4.2/jars/classes.jar"
+      resolved="androidx.test.services:storage:1.4.2"
+      folder="/home/coder/.gradle/caches/8.10.1/transforms/23a07760defb4e61ab809973e33b296f/transformed/storage-1.4.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test:monitor:1.6.1@aar"
+      jars="/home/coder/.gradle/caches/8.10.1/transforms/17a79d23b9b354302a88d26f6a0ca74b/transformed/monitor-1.6.1/jars/classes.jar"
+      resolved="androidx.test:monitor:1.6.1"
+      folder="/home/coder/.gradle/caches/8.10.1/transforms/17a79d23b9b354302a88d26f6a0ca74b/transformed/monitor-1.6.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test:annotation:1.0.1@aar"
+      jars="/home/coder/.gradle/caches/8.10.1/transforms/885f80cb5f82452870271d562ebac085/transformed/annotation-1.0.1/jars/classes.jar"
+      resolved="androidx.test:annotation:1.0.1"
+      folder="/home/coder/.gradle/caches/8.10.1/transforms/885f80cb5f82452870271d562ebac085/transformed/annotation-1.0.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -649,4 +723,16 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="junit:junit:4.13.2@jar"
+      jars="/home/coder/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar"
+      resolved="junit:junit:4.13.2"/>
+  <library
+      name="org.hamcrest:hamcrest-core:1.3@jar"
+      jars="/home/coder/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+      resolved="org.hamcrest:hamcrest-core:1.3"/>
+  <library
+      name="com.google.code.findbugs:jsr305:2.0.2@jar"
+      jars="/home/coder/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.2/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.2.jar"
+      resolved="com.google.code.findbugs:jsr305:2.0.2"/>
 </libraries>

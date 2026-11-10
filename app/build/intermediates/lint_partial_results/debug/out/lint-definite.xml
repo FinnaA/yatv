@@ -76,36 +76,36 @@
         severity="warning"
         message="Use version catalog instead">
         <fix-composite
-            description="Replace with new library catalog declaration for junit-junit8"
+            description="Replace with new library catalog declaration for junit-jupiter"
             robot="true">
             <fix-replace
-                description="Replace with junit-junit7 = &quot;4.13.2&quot;..."
+                description="Replace with junitJupiter = &quot;5.10.2&quot;..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junit-junit7 = &quot;4.13.2&quot;&#xA;">
+                replacement="junitJupiter = &quot;5.10.2&quot;&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="11"
                     endOffset="11"/>
             </fix-replace>
             <fix-replace
-                description="Replace with junit-junit8 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit7&quot; }..."
+                description="Replace with junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiter&quot; }..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junit-junit8 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit7&quot; }&#xA;">
+                replacement="junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiter&quot; }&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="370"
                     endOffset="370"/>
             </fix-replace>
             <fix-replace
-                description="Replace with libs.junit.junit8"
+                description="Replace with libs.junit.jupiter"
                 robot="true"
-                replacement="libs.junit.junit8">
+                replacement="libs.junit.jupiter">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
                     startOffset="1191"
-                    endOffset="1211"/>
+                    endOffset="1231"/>
             </fix-replace>
         </fix-composite>
         <location
@@ -114,8 +114,8 @@
             column="25"
             startOffset="1192"
             endLine="52"
-            endColumn="43"
-            endOffset="1210"/>
+            endColumn="63"
+            endOffset="1230"/>
     </incident>
 
     <incident
@@ -123,46 +123,46 @@
         severity="warning"
         message="Use version catalog instead">
         <fix-composite
-            description="Replace with new library catalog declaration for junit-junit9"
+            description="Replace with new library catalog declaration for ext-junit"
             robot="true">
             <fix-replace
-                description="Replace with junit-junit8 = &quot;4.13.2&quot;..."
+                description="Replace with androidx-junit = &quot;1.1.5&quot;..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junit-junit8 = &quot;4.13.2&quot;&#xA;">
+                replacement="androidx-junit = &quot;1.1.5&quot;&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="11"
                     endOffset="11"/>
             </fix-replace>
             <fix-replace
-                description="Replace with junit-junit9 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit8&quot; }..."
+                description="Replace with ext-junit = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;androidx-junit&quot; }..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junit-junit9 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit8&quot; }&#xA;">
+                replacement="ext-junit = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;androidx-junit&quot; }&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="370"
                     endOffset="370"/>
             </fix-replace>
             <fix-replace
-                description="Replace with libs.junit.junit9"
+                description="Replace with libs.ext.junit"
                 robot="true"
-                replacement="libs.junit.junit9">
+                replacement="libs.ext.junit">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="1243"
-                    endOffset="1263"/>
+                    startOffset="1263"
+                    endOffset="1294"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
             line="53"
             column="32"
-            startOffset="1244"
+            startOffset="1264"
             endLine="53"
-            endColumn="50"
-            endOffset="1262"/>
+            endColumn="61"
+            endOffset="1293"/>
     </incident>
 
     <incident
@@ -315,6 +315,25 @@
             endLine="3"
             endColumn="14"
             endOffset="41"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="53"
+            column="32"
+            startOffset="1264"
+            endLine="53"
+            endColumn="61"
+            endOffset="1293"/>
     </incident>
 
     <incident
