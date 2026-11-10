@@ -609,6 +609,14 @@
       name=":@@:app::debug"
       project=":app"/>
   <library
+      name="junit:junit:4.13.2@jar"
+      jars="/home/coder/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar"
+      resolved="junit:junit:4.13.2"/>
+  <library
+      name="org.hamcrest:hamcrest-core:1.3@jar"
+      jars="/home/coder/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+      resolved="org.hamcrest:hamcrest-core:1.3"/>
+  <library
       name="androidx.recyclerview:recyclerview:1.1.0@aar"
       jars="/home/coder/.gradle/caches/8.10.1/transforms/57326785a240d9a1e5cad800087a2678/transformed/recyclerview-1.1.0/jars/classes.jar"
       resolved="androidx.recyclerview:recyclerview:1.1.0"

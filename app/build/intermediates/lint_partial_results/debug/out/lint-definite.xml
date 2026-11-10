@@ -76,32 +76,32 @@
         severity="warning"
         message="Use version catalog instead">
         <fix-composite
-            description="Replace with new library catalog declaration for junit-junit3"
+            description="Replace with new library catalog declaration for junit-junit6"
             robot="true">
             <fix-replace
-                description="Replace with junit-junit2 = &quot;4.13.2&quot;..."
+                description="Replace with junit-junit5 = &quot;4.13.2&quot;..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junit-junit2 = &quot;4.13.2&quot;&#xA;">
+                replacement="junit-junit5 = &quot;4.13.2&quot;&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="11"
                     endOffset="11"/>
             </fix-replace>
             <fix-replace
-                description="Replace with junit-junit3 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit2&quot; }..."
+                description="Replace with junit-junit6 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit5&quot; }..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junit-junit3 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit2&quot; }&#xA;">
+                replacement="junit-junit6 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit5&quot; }&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="370"
                     endOffset="370"/>
             </fix-replace>
             <fix-replace
-                description="Replace with libs.junit.junit3"
+                description="Replace with libs.junit.junit6"
                 robot="true"
-                replacement="libs.junit.junit3">
+                replacement="libs.junit.junit6">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
                     startOffset="1191"
@@ -116,6 +116,53 @@
             endLine="52"
             endColumn="43"
             endOffset="1210"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for junit-junit7"
+            robot="true">
+            <fix-replace
+                description="Replace with junit-junit6 = &quot;4.13.2&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="junit-junit6 = &quot;4.13.2&quot;&#xA;">
+                <range
+                    file="$HOME/workspace/gradle/libs.versions.toml"
+                    startOffset="11"
+                    endOffset="11"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with junit-junit7 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit6&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="junit-junit7 = { module = &quot;junit:junit&quot;, version.ref = &quot;junit-junit6&quot; }&#xA;">
+                <range
+                    file="$HOME/workspace/gradle/libs.versions.toml"
+                    startOffset="370"
+                    endOffset="370"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.junit.junit7"
+                robot="true"
+                replacement="libs.junit.junit7">
+                <range
+                    file="${:app*projectDir}/build.gradle.kts"
+                    startOffset="1243"
+                    endOffset="1263"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="53"
+            column="32"
+            startOffset="1244"
+            endLine="53"
+            endColumn="50"
+            endOffset="1262"/>
     </incident>
 
     <incident
