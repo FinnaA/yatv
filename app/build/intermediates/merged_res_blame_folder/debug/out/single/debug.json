@@ -1,31 +1,11 @@
 [
     {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_banner.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-38:/drawable/tv_banner.png"
-    },
-    {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_main.xml.flat",
         "source": "ru.digitalavatar.secondlife.app-main-38:/layout/activity_main.xml"
     },
     {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable_button_focus_selector.xml.flat",
         "source": "ru.digitalavatar.secondlife.app-main-38:/drawable/button_focus_selector.xml"
-    },
-    {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_banner.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-38:/drawable-television-xhdpi/tv_banner.png"
-    },
-    {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-38:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_video_player.xml.flat",
@@ -34,6 +14,34 @@
     {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "ru.digitalavatar.secondlife.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_video.xml.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-38:/layout/activity_video.xml"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_banner.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-38:/drawable/tv_banner.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_intro.xml.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-38:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_banner.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-38:/drawable-television-xhdpi/tv_banner.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-38:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-mdpi_tv_banner.png.flat",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.google.android.material:material:1.11.0] /home/coder/.gradle/caches/8.10.1/transforms/abcebf39ea7934a3a9ac0b0d4d155a01/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/coder/.gradle/caches/8.10.1/transforms/23737e2b22eee375f2cdf891a6e03129/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/coder/.gradle/caches/8.10.1/transforms/503bde822115edc98a34d12f85409a3a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -82,8 +82,8 @@ ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:9:5-11:35
 	android:name
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:10:9-49
 application
-ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:13:5-35:19
-INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:13:5-35:19
+ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:13:5-40:19
+INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml:13:5-40:19
 MERGED from [com.google.android.material:material:1.11.0] /home/coder/.gradle/caches/8.10.1/transforms/abcebf39ea7934a3a9ac0b0d4d155a01/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /home/coder/.gradle/caches/8.10.1/transforms/abcebf39ea7934a3a9ac0b0d4d155a01/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/coder/.gradle/caches/8.10.1/transforms/23737e2b22eee375f2cdf891a6e03129/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -116,14 +116,14 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/coder/.gradle/caches/
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:16:9-43
 	android:theme
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:19:9-72
-activity#ru.digitalavatar.secondlife.MainActivity
+activity#ru.digitalavatar.secondlife.IntroActivity
 ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:21:9-29:20
 	android:screenOrientation
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:24:13-50
 	android:exported
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:22:13-41
+		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:22:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
 ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
@@ -134,14 +134,22 @@ category#android.intent.category.LEANBACK_LAUNCHER
 ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:27:17-86
 	android:name
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:27:27-83
-activity#ru.digitalavatar.secondlife.VideoPlayerActivity
+activity#ru.digitalavatar.secondlife.MainActivity
 ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:31:9-34:53
 	android:screenOrientation
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:34:13-50
 	android:exported
 		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:32:13-48
+		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:32:13-41
+activity#ru.digitalavatar.secondlife.VideoPlayerActivity
+ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:36:9-39:53
+	android:screenOrientation
+		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:39:13-50
+	android:exported
+		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /home/coder/workspace/app/src/main/AndroidManifest.xml:37:13-48
 uses-sdk
 INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/coder/workspace/app/src/main/AndroidManifest.xml
