@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 drawable button_focus_selector
+drawable ic_launcher
 drawable tv_banner
 drawable tv_icon_160
 drawable tv_icon_320
@@ -14,7 +15,6 @@ layout activity_main
 layout activity_video
 layout activity_video_player
 mipmap ic_launcher
-mipmap tv_banner
 string app_name
 string app_title
 string btn_call

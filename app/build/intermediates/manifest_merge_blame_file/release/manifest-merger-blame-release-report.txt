@@ -46,8 +46,8 @@
 29-->/home/coder/workspace/app/src/main/AndroidManifest.xml:14:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.13.1] /home/coder/.gradle/caches/8.10.1/transforms/ba5b41134d0b1708cb4c8e508cddfe4a/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
-31        android:banner="@mipmap/tv_banner"
-31-->/home/coder/workspace/app/src/main/AndroidManifest.xml:16:9-43
+31        android:banner="@drawable/tv_banner"
+31-->/home/coder/workspace/app/src/main/AndroidManifest.xml:16:9-45
 32        android:extractNativeLibs="true"
 33        android:icon="@mipmap/ic_launcher"
 33-->/home/coder/workspace/app/src/main/AndroidManifest.xml:15:9-43
