@@ -2,6 +2,9 @@ R_DEF: Internal format may change without notice
 local
 drawable button_focus_selector
 drawable tv_banner
+drawable tv_icon_160
+drawable tv_icon_320
+drawable tv_icon_512
 id btn_call
 id btn_feed
 id player_view
