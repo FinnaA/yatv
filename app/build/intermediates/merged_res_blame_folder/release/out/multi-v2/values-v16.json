@@ -4,7 +4,7 @@
             "outputFile": "ru.digitalavatar.secondlife.app-mergeReleaseResources-34:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/ae0818c9e9baf178bf576ec40142de9a/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/c02f40cf81ca5b7d792aefc88ed45666/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

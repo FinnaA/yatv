@@ -3,14 +3,22 @@
     <map id="UnsafeIntentLaunch">
             <map id="unprotected">
                 <entry
-                    name="ru.digitalavatar.secondlife.MainActivity"
+                    name="ru.digitalavatar.secondlife.IntroActivity"
                     boolean="true"/>
             </map>
     </map>
     <map id="UnusedResources">
         <entry
             name="model"
-            string="drawable[tv_banner(D),button_focus_selector(U)],id[title(D),btn_continue(U),btn_start(U)],layout[activity_video_player(U),activity_main(U)],mipmap[tv_banner(U),ic_launcher(U)],string[app_title(U),app_name(U)];6^9^1;;;"/>
+            string="drawable[tv_banner(D),button_focus_selector(U)],id[btn_feed(U),btn_call(U),title(D),player_view(U)],layout[activity_intro(U),activity_video_player(D),activity_main(U),activity_video(U)],mipmap[tv_banner(U),ic_launcher(U)],string[btn_feed(U),btn_call(U),app_title(U),app_name(U)];8^e^1^c^d;;;"/>
+        <location id="R.layout.activity_video_player"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_video_player.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="15"
+            endColumn="15"
+            endOffset="490"/>
         <location id="R.drawable.tv_banner"
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_banner.png"/>
     </map>

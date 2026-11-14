@@ -1,4 +1,4 @@
-/home/coder/workspace/app/build.gradle.kts:53: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+/home/coder/workspace/app/build.gradle.kts:55: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /home/coder/workspace/gradle/libs.versions.toml:3: Warning: A newer version of com.android.application than 8.2.2 is available: 9.5.1 [GradleDependency]
@@ -13,6 +13,9 @@ constraintlayout = "2.1.4"
 /home/coder/workspace/gradle/libs.versions.toml:6: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.14.0 [GradleDependency]
 material = "1.11.0"
            ~~~~~~~~
+/home/coder/workspace/gradle/libs.versions.toml:7: Warning: A newer version of androidx.media3:media3-database than 1.3.1 is available: 1.11.1 [GradleDependency]
+media3 = "1.3.1"
+         ~~~~~~~
 /home/coder/workspace/gradle/libs.versions.toml:7: Warning: A newer version of androidx.media3:media3-exoplayer than 1.3.1 is available: 1.11.1 [GradleDependency]
 media3 = "1.3.1"
          ~~~~~~~
@@ -22,7 +25,7 @@ media3 = "1.3.1"
 /home/coder/workspace/gradle/libs.versions.toml:7: Warning: A newer version of androidx.media3:media3-ui than 1.3.1 is available: 1.11.1 [GradleDependency]
 media3 = "1.3.1"
          ~~~~~~~
-/home/coder/workspace/gradle/libs.versions.toml:9: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.1 [GradleDependency]
+/home/coder/workspace/gradle/libs.versions.toml:10: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.1 [GradleDependency]
 coreKtx = "1.13.1"
           ~~~~~~~~
 
@@ -33,8 +36,14 @@ coreKtx = "1.13.1"
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
+/home/coder/workspace/app/src/main/res/layout/activity_intro.xml:5: Warning: Possible overdraw: Root element paints background #000000 with a theme that also paints a background (inferred theme is @android:style/Theme.Material.Light.NoActionBar) [Overdraw]
+    android:background="#000000">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /home/coder/workspace/app/src/main/res/layout/activity_main.xml:5: Warning: Possible overdraw: Root element paints background #101418 with a theme that also paints a background (inferred theme is @android:style/Theme.Material.Light.NoActionBar) [Overdraw]
     android:background="#101418">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/coder/workspace/app/src/main/res/layout/activity_video.xml:5: Warning: Possible overdraw: Root element paints background #000000 with a theme that also paints a background (inferred theme is @android:style/Theme.Material.Light.NoActionBar) [Overdraw]
+    android:background="#000000">
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /home/coder/workspace/app/src/main/res/layout/activity_video_player.xml:5: Warning: Possible overdraw: Root element paints background #000000 with a theme that also paints a background (inferred theme is @android:style/Theme.Material.Light.NoActionBar) [Overdraw]
     android:background="#000000">
@@ -61,6 +70,9 @@ coreKtx = "1.13.1"
    performance if you pre-mix the background with your drawable and use that
    resulting image or color as a custom theme background instead.
 
+/home/coder/workspace/app/src/main/res/layout/activity_video_player.xml:2: Warning: The resource R.layout.activity_video_player appears to be unused [UnusedResources]
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
 /home/coder/workspace/app/src/main/res/drawable/tv_banner.png: Warning: The resource R.drawable.tv_banner appears to be unused [UnusedResources]
 
    Explanation for issues of type "UnusedResources":
@@ -122,10 +134,10 @@ coreKtx = "1.13.1"
 
    https://developer.android.com/guide/practices/screens_support.html
 
-/home/coder/workspace/app/build.gradle.kts:52: Warning: Use version catalog instead [UseTomlInstead]
+/home/coder/workspace/app/build.gradle.kts:54: Warning: Use version catalog instead [UseTomlInstead]
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/home/coder/workspace/app/build.gradle.kts:53: Warning: Use version catalog instead [UseTomlInstead]
+/home/coder/workspace/app/build.gradle.kts:55: Warning: Use version catalog instead [UseTomlInstead]
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -135,29 +147,12 @@ coreKtx = "1.13.1"
    declarations outside of the TOML file and suggests moving them (and in the
    IDE, provides a quickfix to performing the operation automatically).
 
-/home/coder/workspace/app/src/main/java/ru/digitalavatar/secondlife/MainActivity.kt:27: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
-            btnContinue.text = "Продолжить (глава $lastChapter)"
-                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-   Explanation for issues of type "SetTextI18n":
-   When calling TextView#setText
-   * Never call Number#toString() to format numbers; it will not handle
-   fraction separators and locale-specific digits properly. Consider using
-   String#format with proper format specifications (%d or %f) instead.
-   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
-   text can not be properly translated to other languages. Consider using
-   Android resource strings instead.
-   * Do not build messages by concatenating text chunks. Such messages can not
-   be properly translated.
-
-   https://developer.android.com/guide/topics/resources/localization.html
-
-/home/coder/workspace/app/src/main/res/layout/activity_main.xml:32: Warning: Hardcoded string "Продолжить игру с последней главы", should use @string resource [HardcodedText]
-            android:contentDescription="Продолжить игру с последней главы" />
+/home/coder/workspace/app/src/main/res/layout/activity_main.xml:33: Warning: Hardcoded string "Покормить котика, накормить, корм", should use @string resource [HardcodedText]
+            android:contentDescription="Покормить котика, накормить, корм" />
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/home/coder/workspace/app/src/main/res/layout/activity_main.xml:43: Warning: Hardcoded string "Начать игру с начала, с первой главы", should use @string resource [HardcodedText]
-            android:contentDescription="Начать игру с начала, с первой главы" />
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/coder/workspace/app/src/main/res/layout/activity_main.xml:44: Warning: Hardcoded string "Подозвать котика, подзови, кис-кис, кыс-кыс, кс-кс-кссс", should use @string resource [HardcodedText]
+            android:contentDescription="Подозвать котика, подзови, кис-кис, кыс-кыс, кс-кс-кссс" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /home/coder/workspace/app/src/main/res/layout/activity_video_player.xml:11: Warning: Hardcoded string "Видеоплеер", should use @string resource [HardcodedText]
         android:text="Видеоплеер"
         ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,4 +171,4 @@ coreKtx = "1.13.1"
    There are quickfixes to automatically extract this hardcoded string into a
    resource lookup.
 
-0 errors, 26 warnings
+0 errors, 29 warnings

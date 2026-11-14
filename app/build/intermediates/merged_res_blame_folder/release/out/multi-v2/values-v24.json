@@ -4,7 +4,7 @@
             "outputFile": "ru.digitalavatar.secondlife.app-mergeReleaseResources-34:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/abcebf39ea7934a3a9ac0b0d4d155a01/transformed/material-1.11.0/res/values-v24/values-v24.xml",
+                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/2d0f0469c8943afbc6af0236ee80028d/transformed/material-1.11.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/ae0818c9e9baf178bf576ec40142de9a/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
+                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/c02f40cf81ca5b7d792aefc88ed45666/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -33,7 +33,7 @@
                     }
                 },
                 {
-                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/055434d1dfbd0e9095520193619e359f/transformed/media-1.7.0/res/values-v24/values-v24.xml",
+                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/8c329c2bdf6515cd676f6f2059769e26/transformed/media-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

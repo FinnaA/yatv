@@ -18,29 +18,29 @@
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;Продолжить игру с последней главы&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Покормить котика, накормить, корм&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="32"
+            line="33"
             column="13"
-            startOffset="1182"
-            endLine="32"
+            startOffset="1197"
+            endLine="33"
             endColumn="75"
-            endOffset="1244"/>
+            endOffset="1259"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;Начать игру с начала, с первой главы&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Подозвать котика, подзови, кис-кис, кыс-кыс, кс-кс-кссс&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="43"
+            line="44"
             column="13"
-            startOffset="1660"
-            endLine="43"
-            endColumn="78"
-            endOffset="1725"/>
+            startOffset="1632"
+            endLine="44"
+            endColumn="97"
+            endOffset="1716"/>
     </incident>
 
     <incident
@@ -58,64 +58,50 @@
     </incident>
 
     <incident
-        id="SetTextI18n"
-        severity="warning"
-        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/ru/digitalavatar/secondlife/MainActivity.kt"
-            line="27"
-            column="32"
-            startOffset="961"
-            endLine="27"
-            endColumn="65"
-            endOffset="994"/>
-    </incident>
-
-    <incident
         id="UseTomlInstead"
         severity="warning"
         message="Use version catalog instead">
         <fix-composite
-            description="Replace with new library catalog declaration for junit-jupiter"
+            description="Replace with new library catalog declaration for jupiter-junit-jupiter"
             robot="true">
             <fix-replace
-                description="Replace with junitJupiter = &quot;5.10.2&quot;..."
+                description="Replace with junitJupiterVersion = &quot;5.10.2&quot;..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junitJupiter = &quot;5.10.2&quot;&#xA;">
+                replacement="junitJupiterVersion = &quot;5.10.2&quot;&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="11"
                     endOffset="11"/>
             </fix-replace>
             <fix-replace
-                description="Replace with junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiter&quot; }..."
+                description="Replace with jupiter-junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiterVersion&quot; }..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiter&quot; }&#xA;">
+                replacement="jupiter-junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiterVersion&quot; }&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
-                    startOffset="370"
-                    endOffset="370"/>
+                    startOffset="391"
+                    endOffset="391"/>
             </fix-replace>
             <fix-replace
-                description="Replace with libs.junit.jupiter"
+                description="Replace with libs.jupiter.junit.jupiter"
                 robot="true"
-                replacement="libs.junit.jupiter">
+                replacement="libs.jupiter.junit.jupiter">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="1191"
-                    endOffset="1231"/>
+                    startOffset="1274"
+                    endOffset="1314"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="52"
+            line="54"
             column="25"
-            startOffset="1192"
-            endLine="52"
+            startOffset="1275"
+            endLine="54"
             endColumn="63"
-            endOffset="1230"/>
+            endOffset="1313"/>
     </incident>
 
     <incident
@@ -126,24 +112,24 @@
             description="Replace with new library catalog declaration for ext-junit"
             robot="true">
             <fix-replace
-                description="Replace with androidx-junit = &quot;1.1.5&quot;..."
+                description="Replace with junitVersion = &quot;1.1.5&quot;..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="androidx-junit = &quot;1.1.5&quot;&#xA;">
+                replacement="junitVersion = &quot;1.1.5&quot;&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
                     startOffset="11"
                     endOffset="11"/>
             </fix-replace>
             <fix-replace
-                description="Replace with ext-junit = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;androidx-junit&quot; }..."
+                description="Replace with ext-junit = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;junitVersion&quot; }..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="ext-junit = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;androidx-junit&quot; }&#xA;">
+                replacement="ext-junit = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;junitVersion&quot; }&#xA;">
                 <range
                     file="$HOME/workspace/gradle/libs.versions.toml"
-                    startOffset="370"
-                    endOffset="370"/>
+                    startOffset="391"
+                    endOffset="391"/>
             </fix-replace>
             <fix-replace
                 description="Replace with libs.ext.junit"
@@ -151,18 +137,18 @@
                 replacement="libs.ext.junit">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="1263"
-                    endOffset="1294"/>
+                    startOffset="1346"
+                    endOffset="1377"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="53"
+            line="55"
             column="32"
-            startOffset="1264"
-            endLine="53"
+            startOffset="1347"
+            endLine="55"
             endColumn="61"
-            endOffset="1293"/>
+            endOffset="1376"/>
     </incident>
 
     <incident
@@ -233,12 +219,12 @@
             replacement="1.19.1"/>
         <location
             file="$HOME/workspace/gradle/libs.versions.toml"
-            line="9"
+            line="10"
             column="11"
-            startOffset="154"
-            endLine="9"
+            startOffset="175"
+            endLine="10"
             endColumn="19"
-            endOffset="162"/>
+            endOffset="183"/>
     </incident>
 
     <incident
@@ -301,6 +287,25 @@
     <incident
         id="GradleDependency"
         severity="warning"
+        message="A newer version of androidx.media3:media3-database than 1.3.1 is available: 1.11.1">
+        <fix-replace
+            description="Change to 1.11.1"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.11.1"/>
+        <location
+            file="$HOME/workspace/gradle/libs.versions.toml"
+            line="7"
+            column="10"
+            startOffset="118"
+            endLine="7"
+            endColumn="17"
+            endOffset="125"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
         message="A newer version of com.android.application than 8.2.2 is available: 9.5.1">
         <fix-replace
             description="Change to 9.5.1"
@@ -328,12 +333,12 @@
             replacement="1.3.0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="53"
+            line="55"
             column="32"
-            startOffset="1264"
-            endLine="53"
+            startOffset="1347"
+            endLine="55"
             endColumn="61"
-            endOffset="1293"/>
+            endOffset="1376"/>
     </incident>
 
     <incident
@@ -397,9 +402,37 @@
     <incident
         id="Overdraw"
         severity="warning"
+        message="Possible overdraw: Root element paints background `#000000` with a theme that also paints a background (inferred theme is `@android:style/Theme.Material.Light.NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_intro.xml"
+            line="5"
+            column="5"
+            startOffset="196"
+            endLine="5"
+            endColumn="33"
+            endOffset="224"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
         message="Possible overdraw: Root element paints background `#101418` with a theme that also paints a background (inferred theme is `@android:style/Theme.Material.Light.NoActionBar`)">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="5"
+            column="5"
+            startOffset="196"
+            endLine="5"
+            endColumn="33"
+            endOffset="224"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#000000` with a theme that also paints a background (inferred theme is `@android:style/Theme.Material.Light.NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_video.xml"
             line="5"
             column="5"
             startOffset="196"

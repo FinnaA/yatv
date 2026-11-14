@@ -3348,8 +3348,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_continue
-id btn_start
+id btn_call
+id btn_feed
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3660,6 +3660,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id player_view
 id pooling_container_listener_holder_tag
 id position
 id postLayout
@@ -3930,7 +3931,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_intro
 layout activity_main
+layout activity_video
 layout activity_video_player
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -4073,6 +4076,8 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string btn_call
+string btn_feed
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action

@@ -20,26 +20,27 @@
             android:textColor="#FFFFFF"
             android:layout_marginBottom="48dp" />
 
-        <!-- Кнопка «Продолжить» — видима только если есть прогресс -->
         <Button
-            android:id="@+id/btn_continue"
+            android:id="@+id/btn_feed"
             android:layout_width="320dp"
             android:layout_height="64dp"
+            android:layout_marginBottom="24dp"
             android:textSize="20sp"
+            android:text="@string/btn_feed"
             android:background="@drawable/button_focus_selector"
             android:focusable="true"
             android:clickable="true"
-            android:contentDescription="Продолжить игру с последней главы" />
+            android:contentDescription="Покормить котика, накормить, корм" />
 
-        <!-- Кнопка «Начать» — либо «Начать игру» (новичок), либо «Начать заново» -->
         <Button
-            android:id="@+id/btn_start"
+            android:id="@+id/btn_call"
             android:layout_width="320dp"
             android:layout_height="64dp"
             android:textSize="20sp"
+            android:text="@string/btn_call"
             android:background="@drawable/button_focus_selector"
             android:focusable="true"
             android:clickable="true"
-            android:contentDescription="Начать игру с начала, с первой главы" />
+            android:contentDescription="Подозвать котика, подзови, кис-кис, кыс-кыс, кс-кс-кссс" />
     </LinearLayout>
 </FrameLayout>

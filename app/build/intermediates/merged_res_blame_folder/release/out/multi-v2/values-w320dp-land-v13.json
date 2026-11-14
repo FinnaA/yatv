@@ -4,7 +4,7 @@
             "outputFile": "ru.digitalavatar.secondlife.app-mergeReleaseResources-34:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/abcebf39ea7934a3a9ac0b0d4d155a01/transformed/material-1.11.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "/home/coder/.gradle/caches/8.10.1/transforms/2d0f0469c8943afbc6af0236ee80028d/transformed/material-1.11.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

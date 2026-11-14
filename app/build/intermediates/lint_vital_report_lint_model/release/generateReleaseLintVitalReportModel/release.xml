@@ -26,6 +26,6 @@
       applicationId="com.example.androidtvapp"
       generatedSourceFolders="build/generated/ap_generated_sources/release/out"
       generatedResourceFolders="build/generated/res/resValues/release"
-      desugaredMethodsFiles="/home/coder/.gradle/caches/8.10.1/transforms/4b52d934525e8108914a76bb878ec814/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/coder/.gradle/caches/8.10.1/transforms/1b1f2af552d1160aa14dea587d8274f7/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

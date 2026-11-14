@@ -38,12 +38,12 @@
       applicationId="com.example.androidtvapp"
       generatedSourceFolders="build/generated/ap_generated_sources/debug/out"
       generatedResourceFolders="build/generated/res/resValues/debug"
-      desugaredMethodsFiles="/home/coder/.gradle/caches/8.10.1/transforms/4b52d934525e8108914a76bb878ec814/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/coder/.gradle/caches/8.10.1/transforms/1b1f2af552d1160aa14dea587d8274f7/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
   <androidTestArtifact
       applicationId="com.example.androidtvapp.test"
       generatedResourceFolders="build/generated/res/resValues/androidTest/debug"
-      desugaredMethodsFiles="/home/coder/.gradle/caches/8.10.1/transforms/4b52d934525e8108914a76bb878ec814/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/coder/.gradle/caches/8.10.1/transforms/1b1f2af552d1160aa14dea587d8274f7/transformed/D8BackportedDesugaredMethods.txt">
   </androidTestArtifact>
   <testArtifact>
   </testArtifact>

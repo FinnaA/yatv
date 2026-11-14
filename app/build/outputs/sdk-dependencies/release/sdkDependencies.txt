@@ -18,10 +18,10 @@ library {
   maven_library {
     groupId: "org.jetbrains"
     artifactId: "annotations"
-    version: "13.0"
+    version: "23.0.0"
   }
   digests {
-    sha256: "\254\342\241\r\310\342\325\3754\222^\312\300>I\210\262\300\370Qe\f\224\270\316\364\233\241\275\021\024x"
+    sha256: "{\017\031r@\202\313\374\274f\345\253\352+\233\311,\360\212\036\241\036\031\0313\355C\200\036\263\315\005"
   }
   repo_index {
     value: 1
@@ -233,10 +233,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-android"
-    version: "1.6.4"
+    version: "1.8.1"
   }
   digests {
-    sha256: "?\334\016\355[\304\270>\351b\'tR\n-\262Tp7\016\254\321X\034\254\0367pO\t[\000"
+    sha256: "\2414\332\317Nex\262\2332\351z\245\005H\320\234\264^<\263U\034\347z\302~U\342e\330\365"
   }
   repo_index {
     value: 1
@@ -246,7 +246,7 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-core"
-    version: "1.6.4"
+    version: "1.8.1"
   }
   repo_index {
     value: 1
@@ -256,10 +256,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-core-jvm"
-    version: "1.6.4"
+    version: "1.8.1"
   }
   digests {
-    sha256: "\302L\213\262{\263 \304\2518qP\032~^\fa`v8\220{\031z\357gU\023\324\310 \276"
+    sha256: "\363\324\365\336\0349\033\274\302\017;45\314\272\300\023R\036v\266\220-}Yc^\301\\\037y~"
   }
   repo_index {
     value: 1
@@ -269,7 +269,7 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-bom"
-    version: "1.6.4"
+    version: "1.8.1"
   }
   repo_index {
     value: 1
@@ -1065,7 +1065,7 @@ library_dependencies {
   library_index: 19
   library_dep_index: 20
   library_dep_index: 22
-  library_dep_index: 2
+  library_dep_index: 0
 }
 library_dependencies {
   library_index: 20
@@ -1073,9 +1073,9 @@ library_dependencies {
 }
 library_dependencies {
   library_index: 21
+  library_dep_index: 1
   library_dep_index: 22
-  library_dep_index: 2
-  library_dep_index: 4
+  library_dep_index: 0
 }
 library_dependencies {
   library_index: 22
@@ -1477,7 +1477,9 @@ module_dependencies {
   dependency_index: 62
   dependency_index: 74
   dependency_index: 72
+  dependency_index: 68
   dependency_index: 75
+  dependency_index: 19
 }
 repositories {
   maven_repo {

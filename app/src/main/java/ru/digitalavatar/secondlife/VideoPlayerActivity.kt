@@ -3,8 +3,10 @@ package ru.digitalavatar.secondlife
 import android.app.Activity
 import android.content.Context
 import android.os.Bundle
+import androidx.annotation.OptIn
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
+import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.datasource.cache.CacheDataSource
@@ -20,6 +22,7 @@ import ru.digitalavatar.secondlife.data.StatsApi
 import ru.digitalavatar.secondlife.data.VideoCatalog
 import java.io.File
 
+@OptIn(UnstableApi::class)
 class VideoPlayerActivity : Activity() {
 
     companion object {
