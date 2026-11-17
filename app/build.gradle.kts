@@ -11,7 +11,7 @@ android {
         applicationId = "com.example.androidtvapp"
         minSdk = 21
         targetSdk = 34
-        versionCode = 2
+        versionCode = 3
         versionName = "1.0"
 
         ndk {
@@ -19,8 +19,25 @@ android {
         }
     }
 
+    // Ключ подписи берётся из переменных окружения, в репозиторий не кладётся.
+    // Перед сборкой: source ~/keys/yatv-release.env
+    val releaseKeystore = System.getenv("YATV_KEYSTORE")
+    signingConfigs {
+        if (releaseKeystore != null) {
+            create("release") {
+                storeFile = file(releaseKeystore)
+                storePassword = System.getenv("YATV_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("YATV_KEY_ALIAS")
+                keyPassword = System.getenv("YATV_KEY_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
+            if (releaseKeystore != null) {
+                signingConfig = signingConfigs.getByName("release")
+            }
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
