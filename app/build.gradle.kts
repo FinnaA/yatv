@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ru.digitalavatar.secondlife"
+        applicationId = "com.example.androidtvapp"
         minSdk = 21
         targetSdk = 34
         versionCode = 2
