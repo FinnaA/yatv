@@ -14,6 +14,7 @@ import androidx.media3.datasource.cache.LeastRecentlyUsedCacheEvictor
 import androidx.media3.datasource.cache.SimpleCache
 import androidx.media3.datasource.DefaultHttpDataSource
 import androidx.media3.database.StandaloneDatabaseProvider
+import androidx.media3.session.MediaSession
 import androidx.media3.ui.PlayerView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -42,6 +43,7 @@ class VideoPlayerActivity : Activity() {
     }
 
     private lateinit var player: ExoPlayer
+    private var mediaSession: MediaSession? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,6 +53,7 @@ class VideoPlayerActivity : Activity() {
             ?: VideoCatalog.intro
 
         player = buildPlayer()
+        mediaSession = MediaSession.Builder(this, player).build()
         findViewById<PlayerView>(R.id.player_view).player = player
         player.setMediaItem(MediaItem.fromUri(url))
         player.prepare()
@@ -79,6 +82,8 @@ class VideoPlayerActivity : Activity() {
 
     override fun onStop() {
         super.onStop()
+        mediaSession?.release()
+        mediaSession = null
         player.release()
     }
 }

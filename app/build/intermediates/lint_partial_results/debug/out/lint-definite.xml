@@ -350,6 +350,38 @@
     </incident>
 
     <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-nodpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/tv_icon_160.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_160.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/tv_icon_320.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_320.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/tv_icon_512.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_512.png"/>
+    </incident>
+
+    <incident
         id="IconLocation"
         severity="warning"
         message="Found bitmap drawable `res/drawable/tv_banner.png` in densityless folder">
@@ -392,11 +424,41 @@
     <incident
         id="IconDuplicatesConfig"
         severity="warning"
-        message="The `tv_banner.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, mipmap-mdpi">
+        message="The `tv_banner.png` icon has identical contents in the following configuration folders: drawable-television-xxxhdpi, drawable">
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/tv_banner.png"/>
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_banner.png"/>
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-television-xhdpi/tv_banner.png"/>
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-television-xxxhdpi/tv_banner.png"/>
+    </incident>
+
+    <incident
+        id="IconDuplicatesConfig"
+        severity="warning"
+        message="The `tv_icon_160.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_160.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-television-xhdpi/tv_icon_160.png"/>
+    </incident>
+
+    <incident
+        id="IconDuplicatesConfig"
+        severity="warning"
+        message="The `tv_icon_512.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_512.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-television-xhdpi/tv_icon_512.png"/>
+    </incident>
+
+    <incident
+        id="IconDuplicatesConfig"
+        severity="warning"
+        message="The `tv_icon_320.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_320.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-television-xhdpi/tv_icon_320.png"/>
     </incident>
 
     <incident

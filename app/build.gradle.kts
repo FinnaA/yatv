@@ -8,10 +8,10 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.androidtvapp"
+        applicationId = "ru.digitalavatar.secondlife"
         minSdk = 21
         targetSdk = 34
-        versionCode = 1
+        versionCode = 2
         versionName = "1.0"
 
         ndk {

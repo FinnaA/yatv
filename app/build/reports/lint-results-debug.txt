@@ -73,7 +73,10 @@ coreKtx = "1.13.1"
 /home/coder/workspace/app/src/main/res/layout/activity_video_player.xml:2: Warning: The resource R.layout.activity_video_player appears to be unused [UnusedResources]
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
 ^
-/home/coder/workspace/app/src/main/res/drawable/tv_banner.png: Warning: The resource R.drawable.tv_banner appears to be unused [UnusedResources]
+/home/coder/workspace/app/src/main/res/drawable-nodpi/ic_launcher.png: Warning: The resource R.drawable.ic_launcher appears to be unused [UnusedResources]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_160.png: Warning: The resource R.drawable.tv_icon_160 appears to be unused [UnusedResources]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_320.png: Warning: The resource R.drawable.tv_icon_320 appears to be unused [UnusedResources]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_512.png: Warning: The resource R.drawable.tv_icon_512 appears to be unused [UnusedResources]
 
    Explanation for issues of type "UnusedResources":
    Unused resources make applications larger and slow down builds.
@@ -99,6 +102,7 @@ coreKtx = "1.13.1"
    children moved directly into the parent for a flatter and more efficient
    layout hierarchy.
 
+/home/coder/workspace/app/src/main/res/drawable-nodpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
 /home/coder/workspace/app/src/main/res/mipmap-hdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
 /home/coder/workspace/app/src/main/res/mipmap-mdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
 /home/coder/workspace/app/src/main/res/mipmap-xhdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
@@ -115,7 +119,10 @@ coreKtx = "1.13.1"
    The unique silhouette implies that your launcher icon should not be a
    filled square.
 
-/home/coder/workspace/app/src/main/res/mipmap-mdpi/tv_banner.png: Warning: The tv_banner.png icon has identical contents in the following configuration folders: drawable-television-xhdpi, mipmap-mdpi [IconDuplicatesConfig]
+/home/coder/workspace/app/src/main/res/drawable/tv_banner.png: Warning: The tv_banner.png icon has identical contents in the following configuration folders: drawable-television-xxxhdpi, drawable [IconDuplicatesConfig]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_160.png: Warning: The tv_icon_160.png icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable [IconDuplicatesConfig]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_320.png: Warning: The tv_icon_320.png icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable [IconDuplicatesConfig]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_512.png: Warning: The tv_icon_512.png icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable [IconDuplicatesConfig]
 
    Explanation for issues of type "IconDuplicatesConfig":
    If an icon is provided under different configuration parameters such as
@@ -124,6 +131,9 @@ coreKtx = "1.13.1"
    folder which is usually not intentional.
 
 /home/coder/workspace/app/src/main/res/drawable/tv_banner.png: Warning: Found bitmap drawable res/drawable/tv_banner.png in densityless folder [IconLocation]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_160.png: Warning: Found bitmap drawable res/drawable/tv_icon_160.png in densityless folder [IconLocation]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_320.png: Warning: Found bitmap drawable res/drawable/tv_icon_320.png in densityless folder [IconLocation]
+/home/coder/workspace/app/src/main/res/drawable/tv_icon_512.png: Warning: Found bitmap drawable res/drawable/tv_icon_512.png in densityless folder [IconLocation]
 
    Explanation for issues of type "IconLocation":
    The res/drawable folder is intended for density-independent graphics such
@@ -171,4 +181,4 @@ coreKtx = "1.13.1"
    There are quickfixes to automatically extract this hardcoded string into a
    resource lookup.
 
-0 errors, 29 warnings
+0 errors, 39 warnings

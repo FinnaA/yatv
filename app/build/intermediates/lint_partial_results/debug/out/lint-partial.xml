@@ -8,9 +8,15 @@
             </map>
     </map>
     <map id="UnusedResources">
+        <location id="R.drawable.ic_launcher"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-nodpi/ic_launcher.png"/>
+        <location id="R.drawable.tv_icon_320"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_320.png"/>
+        <location id="R.drawable.tv_icon_512"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_512.png"/>
         <entry
             name="model"
-            string="drawable[tv_banner(D),button_focus_selector(U)],id[btn_feed(U),btn_call(U),title(D),player_view(U)],layout[activity_intro(U),activity_video_player(D),activity_main(U),activity_video(U)],mipmap[tv_banner(U),ic_launcher(U)],string[btn_feed(U),btn_call(U),app_title(U),app_name(U)];8^e^1^c^d;;;"/>
+            string="drawable[tv_icon_320(D),tv_icon_512(D),tv_icon_160(D),tv_banner(U),button_focus_selector(U),ic_launcher(D)],id[btn_feed(U),btn_call(U),title(D),player_view(U)],layout[activity_intro(U),activity_video_player(D),activity_main(U),activity_video(U)],mipmap[ic_launcher(U)],string[btn_feed(U),btn_call(U),app_title(U),app_name(U)];c^11^4^f^10;;;"/>
         <location id="R.layout.activity_video_player"
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_video_player.xml"
             line="2"
@@ -19,8 +25,8 @@
             endLine="15"
             endColumn="15"
             endOffset="490"/>
-        <location id="R.drawable.tv_banner"
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_banner.png"/>
+        <location id="R.drawable.tv_icon_160"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tv_icon_160.png"/>
     </map>
 
 </incidents>

@@ -177,9 +177,9 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 29 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 39 warnings</span>
       <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Sat Nov 14 06:30:27 UTC 2026 by AGP (8.2.2)</nav>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Tue Nov 17 09:12:46 UTC 2026 by AGP (8.2.2)</nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -188,11 +188,11 @@ document.getElementById(id).style.display = 'none';
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
       <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (10)</a>
       <a class="mdl-navigation__link" href="#Overdraw"><i class="material-icons warning-icon">warning</i>Overdraw: Painting regions more than once (4)</a>
-      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (2)</a>
+      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (5)</a>
       <a class="mdl-navigation__link" href="#UselessParent"><i class="material-icons warning-icon">warning</i>Unnecessary parent layout (1)</a>
-      <a class="mdl-navigation__link" href="#IconLauncherShape"><i class="material-icons warning-icon">warning</i>The launcher icon shape should use a distinct silhouette (5)</a>
-      <a class="mdl-navigation__link" href="#IconDuplicatesConfig"><i class="material-icons warning-icon">warning</i>Identical bitmaps across various configurations (1)</a>
-      <a class="mdl-navigation__link" href="#IconLocation"><i class="material-icons warning-icon">warning</i>Image defined in density-independent drawable folder (1)</a>
+      <a class="mdl-navigation__link" href="#IconLauncherShape"><i class="material-icons warning-icon">warning</i>The launcher icon shape should use a distinct silhouette (6)</a>
+      <a class="mdl-navigation__link" href="#IconDuplicatesConfig"><i class="material-icons warning-icon">warning</i>Identical bitmaps across various configurations (4)</a>
+      <a class="mdl-navigation__link" href="#IconLocation"><i class="material-icons warning-icon">warning</i>Image defined in density-independent drawable folder (4)</a>
       <a class="mdl-navigation__link" href="#UseTomlInstead"><i class="material-icons warning-icon">warning</i>Use TOML Version Catalog Instead (2)</a>
       <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (3)</a>
     </nav>
@@ -218,7 +218,7 @@ document.getElementById(id).style.display = 'none';
 <td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#Overdraw">Overdraw</a>: Overdraw: Painting regions more than once</td></tr>
 <tr>
-<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#UnusedResources">UnusedResources</a>: Unused resources</td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
@@ -226,13 +226,13 @@ document.getElementById(id).style.display = 'none';
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
 </td></tr>
 <tr>
-<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">6</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#IconLauncherShape">IconLauncherShape</a>: The launcher icon shape should use a distinct silhouette</td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#IconDuplicatesConfig">IconDuplicatesConfig</a>: Identical bitmaps across various configurations</td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#IconLocation">IconLocation</a>: Image defined in density-independent drawable folder</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Productivity">Productivity</a>
 </td></tr>
@@ -490,7 +490,10 @@ Dismiss</button>            </div>
 <span class="lineno">  5 </span>    <span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"#000000"</span>>
 </pre>
 
-<span class="location"><a href="../../src/main/res/drawable/tv_banner.png">../../src/main/res/drawable/tv_banner.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_banner.png" /><span class="message">The resource <code>R.drawable.tv_banner</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-nodpi/ic_launcher.png">../../src/main/res/drawable-nodpi/ic_launcher.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-nodpi/ic_launcher.png" /><span class="message">The resource <code>R.drawable.ic_launcher</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_160.png">../../src/main/res/drawable/tv_icon_160.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_icon_160.png" /><span class="message">The resource <code>R.drawable.tv_icon_160</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_320.png">../../src/main/res/drawable/tv_icon_320.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_icon_320.png" /><span class="message">The resource <code>R.drawable.tv_icon_320</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_512.png">../../src/main/res/drawable/tv_icon_512.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_icon_512.png" /><span class="message">The resource <code>R.drawable.tv_icon_512</code> appears to be unused</span><br clear="right"/>
 </div>
 <div class="metadata"><div class="explanation" id="explanationUnusedResources" style="display: none;">
 Unused resources make applications larger and slow down builds.<br/>
@@ -579,6 +582,7 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
+<span class="location"><a href="../../src/main/res/drawable-nodpi/ic_launcher.png">../../src/main/res/drawable-nodpi/ic_launcher.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-nodpi/ic_launcher.png" /><span class="message">Launcher icons should not fill every pixel of their square region; see the design guide for details</span><br clear="right"/>
 <span class="location"><a href="../../src/main/res/mipmap-hdpi/ic_launcher.png">../../src/main/res/mipmap-hdpi/ic_launcher.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/mipmap-hdpi/ic_launcher.png" /><span class="message">Launcher icons should not fill every pixel of their square region; see the design guide for details</span><br clear="right"/>
 <span class="location"><a href="../../src/main/res/mipmap-mdpi/ic_launcher.png">../../src/main/res/mipmap-mdpi/ic_launcher.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/mipmap-mdpi/ic_launcher.png" /><span class="message">Launcher icons should not fill every pixel of their square region; see the design guide for details</span><br clear="right"/>
 <span class="location"><a href="../../src/main/res/mipmap-xhdpi/ic_launcher.png">../../src/main/res/mipmap-xhdpi/ic_launcher.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/mipmap-xhdpi/ic_launcher.png" /><span class="message">Launcher icons should not fill every pixel of their square region; see the design guide for details</span><br clear="right"/>
@@ -624,16 +628,52 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/mipmap-mdpi/tv_banner.png">../../src/main/res/mipmap-mdpi/tv_banner.png</a></span>: <span class="message">The <code>tv_banner.png</code> icon has identical contents in the following configuration folders: drawable-television-xhdpi, mipmap-mdpi</span><br />
+<span class="location"><a href="../../src/main/res/drawable/tv_banner.png">../../src/main/res/drawable/tv_banner.png</a></span>: <span class="message">The <code>tv_banner.png</code> icon has identical contents in the following configuration folders: drawable-television-xxxhdpi, drawable</span><br />
 <ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 1 Additional Locations...</button>
 <div id="Location1Div" style="display: none">
 Additional locations: <ul>
-<li> <span class="location"><a href="../../src/main/res/drawable-television-xhdpi/tv_banner.png">../../src/main/res/drawable-television-xhdpi/tv_banner.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-television-xxxhdpi/tv_banner.png">../../src/main/res/drawable-television-xxxhdpi/tv_banner.png</a></span>
 </ul>
 </div><br/><br/>
 <table>
-<tr><td><a href="../../src/main/res/mipmap-mdpi/tv_banner.png"><img border="0" align="top" src="../../src/main/res/mipmap-mdpi/tv_banner.png" /></a>
-</td><td><a href="../../src/main/res/drawable-television-xhdpi/tv_banner.png"><img border="0" align="top" src="../../src/main/res/drawable-television-xhdpi/tv_banner.png" /></a>
+<tr><td><a href="../../src/main/res/drawable/tv_banner.png"><img border="0" align="top" src="../../src/main/res/drawable/tv_banner.png" /></a>
+</td><td><a href="../../src/main/res/drawable-television-xxxhdpi/tv_banner.png"><img border="0" align="top" src="../../src/main/res/drawable-television-xxxhdpi/tv_banner.png" /></a>
+</td></tr><tr><th></th><th>television-xxxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_160.png">../../src/main/res/drawable/tv_icon_160.png</a></span>: <span class="message">The <code>tv_icon_160.png</code> icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 1 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-television-xhdpi/tv_icon_160.png">../../src/main/res/drawable-television-xhdpi/tv_icon_160.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable/tv_icon_160.png"><img border="0" align="top" src="../../src/main/res/drawable/tv_icon_160.png" /></a>
+</td><td><a href="../../src/main/res/drawable-television-xhdpi/tv_icon_160.png"><img border="0" align="top" src="../../src/main/res/drawable-television-xhdpi/tv_icon_160.png" /></a>
+</td></tr><tr><th></th><th>television-xhdpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_320.png">../../src/main/res/drawable/tv_icon_320.png</a></span>: <span class="message">The <code>tv_icon_320.png</code> icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable</span><br />
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 1 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-television-xhdpi/tv_icon_320.png">../../src/main/res/drawable-television-xhdpi/tv_icon_320.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable/tv_icon_320.png"><img border="0" align="top" src="../../src/main/res/drawable/tv_icon_320.png" /></a>
+</td><td><a href="../../src/main/res/drawable-television-xhdpi/tv_icon_320.png"><img border="0" align="top" src="../../src/main/res/drawable-television-xhdpi/tv_icon_320.png" /></a>
+</td></tr><tr><th></th><th>television-xhdpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_512.png">../../src/main/res/drawable/tv_icon_512.png</a></span>: <span class="message">The <code>tv_icon_512.png</code> icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable</span><br />
+<ul></ul><button id="Location4DivLink" onclick="reveal('Location4Div');" />+ 1 Additional Locations...</button>
+<div id="Location4Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-television-xhdpi/tv_icon_512.png">../../src/main/res/drawable-television-xhdpi/tv_icon_512.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable/tv_icon_512.png"><img border="0" align="top" src="../../src/main/res/drawable/tv_icon_512.png" /></a>
+</td><td><a href="../../src/main/res/drawable-television-xhdpi/tv_icon_512.png"><img border="0" align="top" src="../../src/main/res/drawable-television-xhdpi/tv_icon_512.png" /></a>
 </td></tr><tr><th></th><th>television-xhdpi</th></tr>
 </table>
 </div>
@@ -675,6 +715,9 @@ Dismiss</button>            </div>
 <div class="issue">
 <div class="warningslist">
 <span class="location"><a href="../../src/main/res/drawable/tv_banner.png">../../src/main/res/drawable/tv_banner.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_banner.png" /><span class="message">Found bitmap drawable <code>res/drawable/tv_banner.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_160.png">../../src/main/res/drawable/tv_icon_160.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_icon_160.png" /><span class="message">Found bitmap drawable <code>res/drawable/tv_icon_160.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_320.png">../../src/main/res/drawable/tv_icon_320.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_icon_320.png" /><span class="message">Found bitmap drawable <code>res/drawable/tv_icon_320.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/tv_icon_512.png">../../src/main/res/drawable/tv_icon_512.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/tv_icon_512.png" /><span class="message">Found bitmap drawable <code>res/drawable/tv_icon_512.png</code> in densityless folder</span><br clear="right"/>
 </div>
 <div class="metadata"><div class="explanation" id="explanationIconLocation" style="display: none;">
 The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to <code>drawable-mdpi</code> and consider providing higher and lower resolution versions in <code>drawable-ldpi</code>, <code>drawable-hdpi</code> and <code>drawable-xhdpi</code>. If the icon <b>really</b> is density independent (for example a solid color) you can place it in <code>drawable-nodpi</code>.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/guide/practices/screens_support.html">https://developer.android.com/guide/practices/screens_support.html</a>

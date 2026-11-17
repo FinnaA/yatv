@@ -244,13 +244,49 @@
     <issue
         id="UnusedResources"
         severity="Warning"
-        message="The resource `R.drawable.tv_banner` appears to be unused"
+        message="The resource `R.drawable.ic_launcher` appears to be unused"
         category="Performance"
         priority="3"
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
         <location
-            file="/home/coder/workspace/app/src/main/res/drawable/tv_banner.png"/>
+            file="/home/coder/workspace/app/src/main/res/drawable-nodpi/ic_launcher.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.tv_icon_160` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_160.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.tv_icon_320` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_320.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.tv_icon_512` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_512.png"/>
     </issue>
 
     <issue
@@ -267,6 +303,18 @@
             file="/home/coder/workspace/app/src/main/res/layout/activity_main.xml"
             line="7"
             column="6"/>
+    </issue>
+
+    <issue
+        id="IconLauncherShape"
+        severity="Warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details"
+        category="Usability:Icons"
+        priority="6"
+        summary="The launcher icon shape should use a distinct silhouette"
+        explanation="According to the Android Design Guide (https://d.android.com/r/studio-ui/designer/material/iconography) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square.">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable-nodpi/ic_launcher.png"/>
     </issue>
 
     <issue
@@ -332,15 +380,57 @@
     <issue
         id="IconDuplicatesConfig"
         severity="Warning"
-        message="The `tv_banner.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, mipmap-mdpi"
+        message="The `tv_banner.png` icon has identical contents in the following configuration folders: drawable-television-xxxhdpi, drawable"
         category="Usability:Icons"
         priority="5"
         summary="Identical bitmaps across various configurations"
         explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
         <location
-            file="/home/coder/workspace/app/src/main/res/mipmap-mdpi/tv_banner.png"/>
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_banner.png"/>
         <location
-            file="/home/coder/workspace/app/src/main/res/drawable-television-xhdpi/tv_banner.png"/>
+            file="/home/coder/workspace/app/src/main/res/drawable-television-xxxhdpi/tv_banner.png"/>
+    </issue>
+
+    <issue
+        id="IconDuplicatesConfig"
+        severity="Warning"
+        message="The `tv_icon_160.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable"
+        category="Usability:Icons"
+        priority="5"
+        summary="Identical bitmaps across various configurations"
+        explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_160.png"/>
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable-television-xhdpi/tv_icon_160.png"/>
+    </issue>
+
+    <issue
+        id="IconDuplicatesConfig"
+        severity="Warning"
+        message="The `tv_icon_320.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable"
+        category="Usability:Icons"
+        priority="5"
+        summary="Identical bitmaps across various configurations"
+        explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_320.png"/>
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable-television-xhdpi/tv_icon_320.png"/>
+    </issue>
+
+    <issue
+        id="IconDuplicatesConfig"
+        severity="Warning"
+        message="The `tv_icon_512.png` icon has identical contents in the following configuration folders: drawable-television-xhdpi, drawable"
+        category="Usability:Icons"
+        priority="5"
+        summary="Identical bitmaps across various configurations"
+        explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_512.png"/>
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable-television-xhdpi/tv_icon_512.png"/>
     </issue>
 
     <issue
@@ -355,6 +445,48 @@
         urls="https://developer.android.com/guide/practices/screens_support.html">
         <location
             file="/home/coder/workspace/app/src/main/res/drawable/tv_banner.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/tv_icon_160.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon **really** is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="https://developer.android.com/guide/practices/screens_support.html"
+        urls="https://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_160.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/tv_icon_320.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon **really** is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="https://developer.android.com/guide/practices/screens_support.html"
+        urls="https://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_320.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/tv_icon_512.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon **really** is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="https://developer.android.com/guide/practices/screens_support.html"
+        urls="https://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/coder/workspace/app/src/main/res/drawable/tv_icon_512.png"/>
     </issue>
 
     <issue

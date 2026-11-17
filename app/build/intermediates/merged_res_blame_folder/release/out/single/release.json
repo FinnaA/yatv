@@ -1,23 +1,47 @@
 [
     {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_video.xml.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/layout/activity_video.xml"
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_icon_320.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable/tv_icon_320.png"
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_icon_160.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_icon_160.png"
     },
     {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-nodpi_ic_launcher.png.flat",
         "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-nodpi/ic_launcher.png"
     },
     {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_banner.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable/tv_banner.png"
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_icon_512.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable/tv_icon_512.png"
     },
     {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_intro.xml.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/layout/activity_intro.xml"
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable_button_focus_selector.xml.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable/button_focus_selector.xml"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_icon_320.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable/tv_icon_320.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_icon_320.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_icon_320.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_video_player.xml.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/layout/activity_video_player.xml"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_video.xml.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/layout/activity_video.xml"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_icon_512.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_icon_512.png"
     },
     {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xxhdpi_tv_banner.png.flat",
@@ -28,91 +52,35 @@
         "source": "ru.digitalavatar.secondlife.app-main-37:/drawable/tv_banner.png"
     },
     {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xxxhdpi_tv_banner.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-television-xxxhdpi/tv_banner.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_banner.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_banner.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-37:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable_button_focus_selector.xml.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable/button_focus_selector.xml"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_icon_320.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_icon_320.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_banner.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_banner.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_main.xml.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_icon_512.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_icon_512.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_video_player.xml.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/layout/activity_video_player.xml"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_icon_160.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_icon_160.png"
-    },
-    {
-        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "ru.digitalavatar.secondlife.app-main-37:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-mdpi_tv_banner.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/mipmap-mdpi/tv_banner.png"
-    },
-    {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "ru.digitalavatar.secondlife.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xxxhdpi_tv_banner.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-television-xxxhdpi/tv_banner.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_icon_160.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable/tv_icon_160.png"
     },
     {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "ru.digitalavatar.secondlife.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_icon_512.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable/tv_icon_512.png"
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/layout_activity_intro.xml.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/layout/activity_intro.xml"
     },
     {
-        "merged": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-merged_res-36:/drawable_tv_icon_160.png.flat",
-        "source": "/home/coder/.gradle/daemon/8.10.1/ru.digitalavatar.secondlife.app-main-37:/drawable/tv_icon_160.png"
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/drawable-television-xhdpi_tv_banner.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/drawable-television-xhdpi/tv_banner.png"
     },
     {
         "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "ru.digitalavatar.secondlife.app-main-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ru.digitalavatar.secondlife.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "ru.digitalavatar.secondlife.app-main-37:/mipmap-hdpi/ic_launcher.png"
     }
 ]
